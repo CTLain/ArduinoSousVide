@@ -15,7 +15,7 @@ void setup() {
 
   Serial.println("Temperature Sensor Start");
 
-  pinMode(R_Int,OUTPUT);
+  pinMode(R_Int,OUTPUT); //set reply control pin to GPIO output
   sensors.begin();
 }
 
